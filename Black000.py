@@ -165,7 +165,7 @@ jalan('\033[1;94m──────────██──█──█──█
 jalan('\033[1;94m──────────██──█──█──█──██')
 jalan('\033[1;94m──────────██──█──█──█──██')
 jalan('\033[1;94m───────────█▄▄█▄▄█▄▄█▄▄█')
-jalan('\033[1;94m               \033[1;31mTECH-ABM                \033[1;0m     ') 
+jalan('\033[1;47m               \033[1;31mTECH-ABM                \033[1;0m     ') 
 jalan('⊱⊹⊰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━⊱⊹⊰') 
 jalan('\033[1;91m      \033[1;91m ENTER TOOL USERNAME AND PASSWORD \033[1;0m     ') 
 jalan('⊱⊹⊰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━⊱⊹⊰') 
@@ -206,7 +206,7 @@ def login():
 	time.sleep(0.05)
 	print "\033[1;91m>>>\033[1;91m4\033[1;93m Contact Tech Abm" 
 	time.sleep(0.05) 
-	print "\033[1;91m>>>\033[1;91m5\033[1;94m Update and reset abm commmad" 
+	print "\033[1;91m>>>\033[1;91m5\033[1;94m See all abm commmand" 
 	time.sleep(0.05)
 	print "\033[1;91m>>>\033[1;91m0\033[1;93m Exit             "
 	jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
@@ -228,26 +228,9 @@ def pilih_login():
 		os.system('xdg-open https://m.facebook.com/Techabm')
 		login()
 	elif unikers =="5":
-		os.system('clear')
+		os.system('xdg-open https://github.com/Tech-abm')
 		login()
-		print logo
-		print "\033[1;95m«-----------------\033[1;91mDataReset\033[1;95m---------------»"
-                jalan('\033[1;96m=10%')
-                jalan("\033[1;96m==20%")
-                jalan('\033[1;96m===30%')
-                jalan('\033[1;96m====40%')
-                jalan("\033[1;96m=====50%")
-                jalan("\033[1;96m======60%")
-                jalan('\033[1;96m=======70%')
-                jalan('\033[1;96m========80%')
-                jalan('\033[1;96m=========90%')
-                jalan('\033[1;96m==========100%')
-                jalan('\033[1;91mCloning Data Reset')
-                jalan('\033[1;91mSubscribe Tech Abm YouTube Channel')
-                jalan('\033[1;91mAnonymously Dark fates')
-		os.system('git pull origin master')
-		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
-		menu()
+		
 	elif peak =="0":
 		keluar()
         else:
