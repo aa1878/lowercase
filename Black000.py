@@ -202,9 +202,9 @@ def login():
         time.sleep(0.05)
         print "\033[1;91m>>>\033[1;91m2\033[1;94m Login with access token "
         time.sleep(0.05)
-        print "\033[1;91m>>>\033[1;91m3\033[1;93m Subscribe Tech abm"
+        print "\033[1;91m>>>\033[1;91m3\033[1;93m Download Access token"
 	time.sleep(0.05)
-	print "\033[1;91m>>>\033[1;91m4\033[1;93m Contact Tech Abm" 
+	print "\033[1;91m>>>\033[1;91m4\033[1;93m Subscribe Tech Abm Channel" 
 	time.sleep(0.05) 
 	print "\033[1;91m>>>\033[1;91m5\033[1;94m See all abm commmand" 
 	time.sleep(0.05)
@@ -222,10 +222,10 @@ def pilih_login():
         elif peak =="2":
 	        tokenz()
         elif peak =="3":
-	        os.system('xdg-open https://www.youtube.com/channel/UC5jned7it1eduNGSHP9C0qw')
+	        os.system('xdg-open https://play.google.com/store/apps/details?id=com.proit.thaison.getaccesstokenfacebook')
 	        login()
 	elif peak =="4":
-		os.system('xdg-open https://m.facebook.com/Techabm')
+		os.system('xdg-open https://www.youtube.com/channel/UC5jned7it1eduNGSHP9C0qw')
 		login()
 	elif unikers =="5":
 		os.system('xdg-open https://github.com/Tech-abm')
