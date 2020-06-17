@@ -165,7 +165,7 @@ jalan('\033[1;94m──────────██──█──█──█
 jalan('\033[1;94m──────────██──█──█──█──██')
 jalan('\033[1;94m──────────██──█──█──█──██')
 jalan('\033[1;94m───────────█▄▄█▄▄█▄▄█▄▄█')
-jalan('\033[1;9m4               \033[1;31mTECH-ABM                \033[1;0m     ') 
+jalan('\033[1;94m               \033[1;31mTECH-ABM                \033[1;0m     ') 
 jalan('⊱⊹⊰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━⊱⊹⊰') 
 jalan('\033[1;91m      \033[1;91m ENTER TOOL USERNAME AND PASSWORD \033[1;0m     ') 
 jalan('⊱⊹⊰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━⊱⊹⊰') 
@@ -204,7 +204,7 @@ def login():
         time.sleep(0.05)
         print "\033[1;91m>>>\033[1;91m3\033[1;93m Subscribe Tech abm"
 	time.sleep(0.05)
-	print "\033[1;91m>>>\033[1;91m4\033[1;94m Contact Tech Abm" 
+	print "\033[1;91m>>>\033[1;91m4\033[1;93m Contact Tech Abm" 
 	time.sleep(0.05) 
 	print "\033[1;91m>>>\033[1;91m5\033[1;94m Update and reset abm commmad" 
 	time.sleep(0.05)
@@ -229,7 +229,8 @@ def pilih_login():
 		login()
 	elif unikers =="5":
 		os.system('clear')
-		print logo6
+		login()
+		print logo
 		print "\033[1;95m«-----------------\033[1;91mDataReset\033[1;95m---------------»"
                 jalan('\033[1;96m=10%')
                 jalan("\033[1;96m==20%")
