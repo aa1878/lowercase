@@ -231,7 +231,6 @@ def pilih_login():
 	elif unikers =="5":
 		os.system('xdg-open https://github.com/Tech-abm')
 		login()
-		
 	elif unikers =="0":
 		jalan('Token Removed')
 		os.system('rm -rf login.txt')
@@ -239,7 +238,9 @@ def pilih_login():
 	else:
 		print "\x1b[1;91mFill in correctly"
 		pilih()
+			
 		
+	
 def login1():
 	os.system('clear')
 	try:
@@ -302,7 +303,7 @@ def login1():
 def tokenz():
 	os.system('clear')
 	print logo
-	toket = raw_input("\033[1;91m[+]\033[1;92mToken\033[1;91m : \033[1;95m Enter accees token link without Fb login>> ")
+	toket = raw_input("\033[1;91m[+]\033[1;92mToken\033[1;91m :\033[1;95mEnter accees token link without Fb login>> ")
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
 		a = json.loads(otw.text)
