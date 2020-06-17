@@ -199,17 +199,17 @@ def login():
 	os.system('clear')
 	print logo
 	jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
-	print "\033[1;91m>>>\033[1;91m1\033[1;93m Login with Facebook  "
+	print "\033[1;91m>>>\033[1;91m[1]\033[1;93m Login with Facebook  "
         time.sleep(0.05)
-        print "\033[1;91m>>>\033[1;91m2\033[1;94m Login with access token "
+        print "\033[1;91m>>>\033[1;91m[2]\033[1;94m Login with access token "
         time.sleep(0.05)
-        print "\033[1;91m>>>\033[1;91m3\033[1;93m Download Access token"
+        print "\033[1;91m>>>\033[1;91m[3]\033[1;93m Download Access token"
 	time.sleep(0.05)
-	print "\033[1;91m>>>\033[1;91m4\033[1;94m Subscribe Tech Abm Channel" 
+	print "\033[1;91m>>>\033[1;91m[4]\033[1;94m Subscribe Tech Abm Channel" 
 	time.sleep(0.05) 
-	print "\033[1;91m>>>\033[1;91m5\033[1;94m See all abm commmand" 
+	print "\033[1;91m>>>\033[1;91m[5]\033[1;93m See all abm commmand" 
 	time.sleep(0.05)
-	print "\033[1;91m>>>\033[1;91m0\033[1;93m Exit             "
+	print "\033[1;91m>>>\033[1;91m[0]\033[1;96m Logout        "
 	jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
 	pilih_login()
 
@@ -232,12 +232,14 @@ def pilih_login():
 		os.system('xdg-open https://github.com/Tech-abm')
 		login()
 		
-	elif peak =="0":
+	elif unikers =="0":
+		jalan('Token Removed')
+		os.system('rm -rf login.txt')
 		keluar()
-        else:
-		print"\033[1;91m[!] Wrong input"
-		keluar()
-
+	else:
+		print "\x1b[1;91mFill in correctly"
+		pilih()
+		
 def login1():
 	os.system('clear')
 	try:
