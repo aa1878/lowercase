@@ -244,7 +244,7 @@ def pilih_login():
                 jalan('\033[1;96m==========100%')
                 jalan('\033[1;91mCloning Data Reset')
                 jalan('\033[1;91mSubscribe Tech Abm YouTube Channel')
-                jalan('\033[1;91mAnonymously Dark fate')
+                jalan('\033[1;91mAnonymously Dark fates')
 		os.system('git pull origin master')
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
 		menu()
