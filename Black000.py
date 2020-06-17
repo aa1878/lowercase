@@ -299,7 +299,7 @@ def login1():
 def tokenz():
 	os.system('clear')
 	print logo
-	toket = raw_input("\033[1;91m[?] \033[1;92mToken\033[1;91m : \033[1;95mCopy👉  \033[1;96m EAAAAUaZA8jlABAFpDXx3FwAnUMnKBSR7hoNeO0XK0qSocPc0dxfrP0L13QVa0yXMaWKNzx8M5ZC6Ajpq50uSkfNpSHlX8kDUonlLXWFuP32hbPWjPLyoZAjZC4wKKnDTcYKHm7YsuHd7PJYzfrCZCb373OVWXeX16Vv50fFwdSiO7RZA1L152EBsXz5mgDZBvIZD  \033[1;95m👈 With out fb ID free login Token Paste & Enter👉")
+	toket = raw_input("\033[1;91m[?] \033[1;92mToken\033[1;91m : \033[1;95m Enter accees token link without Fb login>>> ")
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
 		a = json.loads(otw.text)
