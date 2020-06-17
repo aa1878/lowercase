@@ -68,7 +68,7 @@ logo = """
            \033[1;91m█░░║║║╠─║─║─║║║║║╠─░░█
            \033[1;92m█░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█ 
            \033[1;91m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-	    \033[1;47m \033[1;31mCoder : Tech-Abm \033[1;0m     
+	    \033[1;47m \033[1;31m Coder by : Tech-Abm \033[1;0m     
 \033[0;95m╭════════════════════════════════════════════╮
 \033[0;91m║\033[0;91mAUTHOR : \033[0;92mTECH ABM                     \033[0;91m      ║
 \033[0;91m║\033[0;91mGITHUB :\033[0;92m https://github.com/Tech-abm   \033[0;91m     ║
@@ -205,7 +205,7 @@ def login():
         time.sleep(0.05)
         print "\033[1;91m>>>\033[1;91m3\033[1;93m Download Access token"
 	time.sleep(0.05)
-	print "\033[1;91m>>>\033[1;91m4\033[1;93m Subscribe Tech Abm Channel" 
+	print "\033[1;91m>>>\033[1;91m4\033[1;94m Subscribe Tech Abm Channel" 
 	time.sleep(0.05) 
 	print "\033[1;91m>>>\033[1;91m5\033[1;94m See all abm commmand" 
 	time.sleep(0.05)
